@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Livraria</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_estoque">Estoque</string>
+    <string name="title_activity_venda">Venda</string>
+    <string name="title_activity_transacoes">Transações</string>
+    <string name="title_activity_venda2">Venda2</string>
+    <string name="title_activity_novo_item">Novo Item</string>
+    <string name="title_activity_ver_item">Ver item</string>
+    <string name="title_activity_entrada_estoque">Entrada no estoque</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="hello_world">Hi there</string>
+
+
+</resources>

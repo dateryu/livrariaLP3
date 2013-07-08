@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ufpb.livraria"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ufpb.livraria.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ufpb.livraria.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ufpb.livraria.EstoqueActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_estoque"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ufpb.livraria.VendaActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_venda"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ufpb.livraria.TransacoesActivity"
+            android:label="@string/title_activity_transacoes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ufpb.livraria.VerItemActivity"
+            android:label="@string/title_activity_ver_item"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
